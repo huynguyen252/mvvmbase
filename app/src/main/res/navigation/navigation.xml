@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/parentFragment"
+        android:name="com.ribisoft.english.baseproject.view.fragment.parent.ParentFragment"
+        android:label="ParentFragment" >
+        <action
+            android:id="@+id/action_parentFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ribisoft.english.baseproject.view.fragment.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_newsListFragment"
+            app:destination="@id/newsListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsListFragment"
+        android:name="com.ribisoft.english.baseproject.view.fragment.newslist.NewsListFragment"
+        android:label="NewsListFragment" />
+</navigation>
