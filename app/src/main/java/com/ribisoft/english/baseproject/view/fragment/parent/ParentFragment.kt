@@ -14,7 +14,7 @@ import org.koin.android.viewmodel.ext.android.viewModel
  */
 class ParentFragment : BaseFragment<FragmentParentBinding>() {
     override val layoutRes: Int = R.layout.fragment_parent
-    override val viewModel: ParentViewModel by viewModel<ParentViewModel>()
+    override val viewModel: ParentViewModel by viewModel()
 
     override fun initView() {
         viewDataBinding.fragment = this

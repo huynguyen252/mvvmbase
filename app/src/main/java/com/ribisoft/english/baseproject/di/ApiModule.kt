@@ -7,27 +7,10 @@ import retrofit2.Retrofit
 
 val apiModule = module {
 
-    fun provideNewsApi(retrofit: Retrofit): NewsApi {
-        return retrofit.create(NewsApi::class.java)
-    }
-
-    fun provideAdsApi(retrofit: Retrofit): AdsApi {
-        return retrofit.create(AdsApi::class.java)
-    }
-    fun provideConfigApi(retrofit: Retrofit): ConfigApi {
-        return retrofit.create(ConfigApi::class.java)
-    }
-
-    fun provideNotifyApi(retrofit: Retrofit): NotifyApi {
-        return retrofit.create(NotifyApi::class.java)
-    }
-    fun provideSearchApi(retrofit: Retrofit): SearchApi {
-        return retrofit.create(SearchApi::class.java)
+    fun provideNewsApi(retrofit: Retrofit): Api {
+        return retrofit.create(Api::class.java)
     }
 
     single { provideNewsApi(get(named("News"))) }
-    single { provideAdsApi(get(named("Ads"))) }
-    single { provideConfigApi(get(named("Config"))) }
-    single { provideNotifyApi(get(named("Notify"))) }
-    single { provideSearchApi(get(named("Search"))) }
+
 }

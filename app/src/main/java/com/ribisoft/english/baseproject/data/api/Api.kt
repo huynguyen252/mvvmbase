@@ -9,7 +9,7 @@ import retrofit2.http.POST
 /**
  * Created by HuyNguyenCao on 12/30/2020.
  */
-interface NewsApi {
+interface Api {
     @POST("home")
     suspend fun getHome(@Body postEntity: HomeReqEntity): Response<HomeResEntity>
 }
