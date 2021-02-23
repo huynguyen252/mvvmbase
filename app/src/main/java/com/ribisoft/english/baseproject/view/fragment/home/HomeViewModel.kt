@@ -3,8 +3,8 @@ package com.ribisoft.english.baseproject.view.fragment.home
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.ribisoft.english.baseproject.data.model.request.HomeReqEntity
-import com.ribisoft.english.baseproject.data.model.response.HomeResEntity
+import com.ribisoft.english.baseproject.data.model.remote.request.HomeReqEntity
+import com.ribisoft.english.baseproject.data.model.remote.response.HomeResEntity
 import com.ribisoft.english.baseproject.data.repo.HomeRepoImpl
 import com.ribisoft.english.baseproject.utils.AppResult
 import com.ribisoft.english.baseproject.view.base.BaseViewModel

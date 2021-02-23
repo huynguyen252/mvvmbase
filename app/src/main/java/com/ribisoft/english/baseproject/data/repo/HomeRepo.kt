@@ -2,8 +2,8 @@ package com.ribisoft.english.baseproject.data.repo
 
 import android.content.Context
 import com.ribisoft.english.baseproject.data.api.Api
-import com.ribisoft.english.baseproject.data.model.request.HomeReqEntity
-import com.ribisoft.english.baseproject.data.model.response.HomeResEntity
+import com.ribisoft.english.baseproject.data.model.remote.request.HomeReqEntity
+import com.ribisoft.english.baseproject.data.model.remote.response.HomeResEntity
 import com.ribisoft.english.baseproject.utils.AppResult
 import com.ribisoft.english.baseproject.utils.NetworkManager.isOnline
 import com.ribisoft.english.baseproject.utils.Utils.handleApiError

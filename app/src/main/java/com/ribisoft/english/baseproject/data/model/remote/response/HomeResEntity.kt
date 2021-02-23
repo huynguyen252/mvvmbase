@@ -1,7 +1,7 @@
-package com.ribisoft.english.baseproject.data.model.response
+package com.ribisoft.english.baseproject.data.model.remote.response
 
 import com.google.gson.annotations.SerializedName
-import java.util.*
+import com.ribisoft.english.baseproject.data.model.remote.response.HomeNewsPosition
 
 /**
  * Created by HuyNguyenCao on 12/30/2020.

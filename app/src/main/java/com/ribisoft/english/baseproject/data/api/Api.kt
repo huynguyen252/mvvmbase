@@ -1,7 +1,7 @@
 package com.ribisoft.english.baseproject.data.api
 
-import com.ribisoft.english.baseproject.data.model.request.HomeReqEntity
-import com.ribisoft.english.baseproject.data.model.response.HomeResEntity
+import com.ribisoft.english.baseproject.data.model.remote.request.HomeReqEntity
+import com.ribisoft.english.baseproject.data.model.remote.response.HomeResEntity
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.POST

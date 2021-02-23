@@ -11,6 +11,6 @@ val apiModule = module {
         return retrofit.create(Api::class.java)
     }
 
-    single { provideNewsApi(get(named("News"))) }
+    single { provideNewsApi(get()) }
 
 }

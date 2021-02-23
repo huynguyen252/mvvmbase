@@ -1,4 +1,4 @@
-package com.ribisoft.english.baseproject.data.model.request
+package com.ribisoft.english.baseproject.data.model.remote.request
 
 /**
  * Created by HuyNguyenCao on 12/30/2020.
